@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+  }
+  
+  #container {
+    text-align: center;
+  }
+  
+  .box {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  #Text{
+    font-size: 26px;
+    color:black;
+  }
+  #bgcolor{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  #red, #blue, #black, #green{
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px solid black;
+  }
+  #red{
+    background-color: red;
+  }
+  #black{
+    background-color: black;
+  }
+  #green{
+    background-color: green;
+  }
+  #blue{
+    background-color: blue;
+  }
+  
+
+  .opbtn{
+    margin-top: 20px;
+  }
+  .opbtn button{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding: 2%;
+  }
